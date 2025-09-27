@@ -30,7 +30,7 @@ const TextEff = () => {
             stagger: 0.1,
             scrollTrigger: {
                 trigger: ".texteff h1",
-                start: "top 115%",
+                start: "top 95%",
                 end: "top 15%",
                 scrub: 3,
                 // markers: true,
