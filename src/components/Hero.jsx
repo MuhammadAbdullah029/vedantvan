@@ -38,8 +38,9 @@ const Hero = () => {
           <Scene/>
           <div className="absolute md:bg-white bg-[#F7F6F6] md:w-[30%] md:h-[40%] h-[50%] md:bottom-0 md:right-0 -bottom-[55%] radius rounded-[15px] p-[2rem] pb-[.5rem] text-[1rem] ">
             <p className='md:mb-6 mb-3 ' >Delivering efficiency, innovation, and impact through product leadership and AI automation</p>
-            <a href="http://linkedin.com" target="_blank" className='bg-[#000] p text-sm md:w-fit block w-full text-center '  >Discover More</a>
+            <a href="http://linkedin.com" target="_blank" className='bg p text-sm md:w-fit block w-full text-center '  >Discover More</a>
           </div>
+          {/* Curves */}
           <div className="bg-white absolute bottom-[40%] right-0 w-[5%] h-[15%] z-20 md:flex hidden ">
             <div className="bg-black w-full h-full rounded-br-[55px] "></div>
           </div>
