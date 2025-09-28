@@ -18,7 +18,7 @@ const Projects = ({ projects = [] }) => {
 
   return (
     <div className="p-[1rem] border-[1px] border-[#F7F6F6] md:rounded-[25px] w-full  md:h-[75vh] ">
-      <h1 className="text-4xl font-bold mb-8 text-center">My Work </h1>
+      <h1 className="text-[5vw] font-bold mb-8 text-center">My Work </h1>
       
       {/* Cards Grid */}
       <div className="flex gap-6 min-w-full mx-auto overflow-x-scroll overflow-y-hidden scroll ">

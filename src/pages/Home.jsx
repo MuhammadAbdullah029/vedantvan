@@ -130,7 +130,7 @@ const Home = () => {
     <>
       <nav className='w-[94%] fixed top-14 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 pl-6 pr-6 bg-[#F7F6F6] rounded-[35px] flex items-center justify-between z-50 ' >
         <h1 className='text-3xl ' >Vedant Vanmore</h1>
-        <a href="mailto:" className='bg-[#061B57] btn text-lg ' >Contact</a>
+        <a href="mailto:vedantvanmore111@gmail.com" className='bg-[#061B57] btn text-lg ' >Contact</a>
       </nav>
       <Hero/>
       <About/>
