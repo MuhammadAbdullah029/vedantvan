@@ -73,7 +73,7 @@ const Slider = ({ items, speed }) => {
           return (
             <div
               key={`${item.name}-${i}`}
-              className="md:h-[10vh] flex items-center justify-between bg-white md:text-lg text-[4vw] font-semibold rounded-[55px] md:px-4 py-4 px-4 transition-colors duration-300 hover:bg-[#F7F6F6] cursor-pointer"
+              className="md:h-[10vh] lg:h-[7vh] flex items-center justify-between bg-white md:text-lg lg:text-2xl text-[4vw] font-semibold rounded-[55px] md:px-4 py-4 px-4 transition-colors duration-300 hover:bg-[#F7F6F6] cursor-pointer"
             >
               {item.name}
               <Icon color={"#061B57"} size={24} />

@@ -25,7 +25,7 @@ const Projects = ({ projects = [] }) => {
         <h1 ref={headingRef} className="md:text-[5vw] text-4xl font-bold mb-8 text-center">My Work </h1>
 
         {/* Cards Grid */}
-        <div className="flex gap-6 md:h-[75%] h-[95%] min-w-full mx-auto overflow-x-scroll overflow-y-hidden scroll ">
+        <div className="flex gap-6 md:h-[65%] lg:h-[60%] h-[95%] min-w-full mx-auto overflow-x-scroll overflow-y-hidden scroll ">
           {displayProjects.map((project) => (
             <div
               key={project.id}

@@ -58,7 +58,7 @@ const Tools = () => {
 
     return (
         <>
-            <div className="w-[100%] md:h-[80vh] h-[130vh] md:p-[3rem] p-[1rem] ">
+            <div className="w-[100%] md:h-[80vh] lg:h-[70vh] h-[130vh] md:p-[3rem] p-[1rem] ">
                 <div className="w-[100%] h-[100%] bg2 md:rounded-[25px] rounded-[15px] flex md:flex-row flex-col-reverse items-center justify-between p-[1vw] ">
                     <div className="left md:w-[49%] w-[100%] md:h-[100%] h-[40%] rounded-[15px] overflow-hidden ">
                         <Slider items={tools} speed={19} />
