@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <>
-      <div className="w-[100%] md:h-[105vh] md:p-[3rem] p-[1rem] pt-[1rem] mt-4 ">
+      <div className="w-[100%] md:h-[85vh] md:p-[3rem] p-[1rem] pt-[1rem] mt-4 ">
         <div className="w-[100%] h-[100%] border-[1px] border-[#F7F6F6] md:rounded-[25px] rounded-[15px] flex md:flex-row flex-col md:gap-0 gap-4 items-center justify-between md:p-[1vw] pt-4 ">
 
           {/* Left Side (Image) */}
