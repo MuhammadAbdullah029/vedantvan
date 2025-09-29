@@ -76,6 +76,12 @@
 .bg{
     background: linear-gradient(135deg, #0D0717, #000000);
 }
+.bg1{
+    background: linear-gradient(135deg, #EDE1FB, #F7DDDE);
+}
+.bg2{
+        background: linear-gradient(135deg, #0D0717, #554851);
+}
 
 .font{
     color: white;

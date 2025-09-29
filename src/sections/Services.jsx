@@ -29,8 +29,8 @@ const Services = () => {
   useScrollAnimation(headingRef)
 
   return (
-    <section className="w-full min-h-screen p-[1rem] md:px-12">
-      <div className="w-full h-full bg-[#F7F6F6] md:rounded-[25px] rounded-[15px] md:p-8  p-3 pt-6 pb-6">
+    <section className="w-full min-h-screen md:h-screen p-[1rem] md:px-12">
+      <div className="w-full h-full bg1 md:rounded-[25px] rounded-[15px] md:p-8  p-3 pt-6 pb-6">
         {/* Section Title */}
         <h1 ref={headingRef} className="text-3xl md:text-5xl font-bold mb-12 text-center">
           What I Offer
