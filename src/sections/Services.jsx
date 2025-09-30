@@ -29,19 +29,19 @@ const Services = () => {
   useScrollAnimation(headingRef)
 
   return (
-    <section className="w-full sm:h-auto xl:h-[80vh] p-[1rem] md:px-12">
-      <div className="w-full h-full bg1 md:rounded-[25px] rounded-[15px] md:p-8  p-3 pt-6 pb-6">
+    <div className="w-full sm:h-auto xl:h-[80vh] p-[1rem] xl:px-12">
+      <div className="w-full h-full bg1 xl:rounded-[25px] rounded-[15px] xl:p-8  p-3 pt-6 pb-6">
         {/* Section Title */}
-        <h1 ref={headingRef} className="text-3xl md:text-5xl font-bold mb-12 text-center">
+        <h1 ref={headingRef} className="text-3xl xl:text-[4vw] font-bold mb-12 text-center">
           What I Offer
         </h1>
 
         {/* Cards Container */}
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch md:h-[90%] ">
+        <div className="flex flex-col xl:flex-row gap-8 justify-center items-stretch xl:h-[90%] ">
           {cards.map((card) => (
             <div
               key={card.id}
-              className="flex flex-col bg-white rounded-[15px] p-6 shadow-md cursor-pointer hover:shadow-xl hover:scale-105 transform transition-all duration-300 w-full md:w-1/3 md:h-[90%] "
+              className="flex flex-col bg-white rounded-[15px] p-6 shadow-md cursor-pointer hover:shadow-xl hover:scale-105 transform transition-all duration-300 w-full xl:w-1/3 xl:h-[86%] "
             >
               {/* Icon + ID */}
               <div className="flex items-center gap-3 mb-6">
@@ -64,7 +64,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
