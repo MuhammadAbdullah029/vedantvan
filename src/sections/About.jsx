@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import TextEff from '../components/TextEff.jsx'
 import DevImg from '../assets/Dev_1-min.jpg'
 import useScrollAnimation from '../components/useScrollAnimation.js'
 
@@ -35,7 +34,11 @@ const About = () => {
               About Me
             </h1>
             <div className="w-full md:mt-0 mt-8">
-              <TextEff />
+              <div className="texteff w-[95%] ">
+                          <p>Hi, I’m Vedant</p>
+                          <p>I bring over 8 years of experience in product management, AI automation, project management, social media management, faceless content creation, operations, and technical customer service. Over the years, I’ve launched new features, led large projects from start to finish, and built and supported more than 100 automation workflows that saved teams over 52,000 hours annually. I love solving challenges, learning new tools quickly, and finding smarter ways to get work done. At the end of the day, I’m happiest when I’m helping teams and clients move faster, stress less, and hit their goals with ease.</p>
+              
+                      </div>
             </div>
           </div>
 
