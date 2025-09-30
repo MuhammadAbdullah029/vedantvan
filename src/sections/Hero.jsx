@@ -35,7 +35,7 @@ const Hero = ({ aboutRef }) => {
 
   return (
     <>
-      <div className="w-[100%] plr overflow-hidden xl:h-[145vh] h-[115vh] ">
+      <div className="w-[100%] plr overflow-hidden xl:h-[120vh] h-[115vh] ">
         <h1 className='font-bold md:text-[7vw] leading-[1.1] text-[9vw] ' >I'm Vedant Vanmore</h1>
         <h1 className='font-bold md:text-[6vw] leading-[1.1] text-[8vw] flex md:flex-row flex-col items-center md:gap-3 gap-0 ' >Turning idea into impact <span className='rounded-[55px] pt-2 pb-2 md:text-5xl bg text-2xl -md:mt-4 mt-[.5rem] block md:w-[21%] w-[100%] text-center ' ><span className='cursive' ref={typedRef} ></span></span> </h1>
         <div className='bg w-full md:rounded-[35px] rounded-[15px] xl:h-[80vh] lg:h-[60vh] h-[40vh] mt-[5%] relative ' >
@@ -58,7 +58,3 @@ const Hero = ({ aboutRef }) => {
 }
 
 export default Hero
-// Innovator
-// Strategist
-// Catalyst
-// Builder

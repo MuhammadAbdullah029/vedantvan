@@ -7,8 +7,8 @@ const Footer = ({ aboutRef, skillsRef, workRef, servicesRef }) => {
   };
 
   return (
-    <footer className="w-full mt-12 md:p-[3rem] md:pb-[1rem] p-[1rem] ">
-      <div className="w-full bg p-[1rem] md:rounded-[25px] rounded-[15px] ">
+    <footer className="w-full md:h-[40vh] mt-12 md:p-[3rem] md:pb-[1rem] p-[1rem] ">
+      <div className="w-full h-full bg p-[1rem] md:rounded-[25px] rounded-[15px] ">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Left side - Branding */}
           <div className="text-center md:text-left">

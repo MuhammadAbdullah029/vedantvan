@@ -29,7 +29,7 @@ const Services = () => {
   useScrollAnimation(headingRef)
 
   return (
-    <section className="w-full sm:h-auto xl:h-[90vh] p-[1rem] md:px-12">
+    <section className="w-full sm:h-auto xl:h-[80vh] p-[1rem] md:px-12">
       <div className="w-full h-full bg1 md:rounded-[25px] rounded-[15px] md:p-8  p-3 pt-6 pb-6">
         {/* Section Title */}
         <h1 ref={headingRef} className="text-3xl md:text-5xl font-bold mb-12 text-center">
@@ -37,11 +37,11 @@ const Services = () => {
         </h1>
 
         {/* Cards Container */}
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
+        <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch md:h-[90%] ">
           {cards.map((card) => (
             <div
               key={card.id}
-              className="flex flex-col bg-white rounded-[15px] p-6 shadow-md cursor-pointer hover:shadow-xl hover:scale-105 transform transition-all duration-300 w-full md:w-1/3"
+              className="flex flex-col bg-white rounded-[15px] p-6 shadow-md cursor-pointer hover:shadow-xl hover:scale-105 transform transition-all duration-300 w-full md:w-1/3 md:h-[90%] "
             >
               {/* Icon + ID */}
               <div className="flex items-center gap-3 mb-6">
@@ -57,7 +57,7 @@ const Services = () => {
               </h2>
 
               {/* Description */}
-              <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              <p className="text-sm md:text-[1vw] text-gray-700 leading-relaxed">
                 {card.desc}
               </p>
             </div>
