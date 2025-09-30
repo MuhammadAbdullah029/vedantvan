@@ -9,11 +9,11 @@ const Footer = ({ aboutRef, skillsRef, workRef, servicesRef }) => {
   return (
     <footer className="w-full mt-12 md:p-[3rem] md:pb-[1rem] p-[1rem] ">
       <div className="w-full bg p-[1rem] md:rounded-[25px] rounded-[15px] ">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Left side - Branding */}
           <div className="text-center md:text-left">
             <h2 className="text-3xl md:text-[3vw] font-bold white cur">Vedant Vanmore</h2>
-            <p className="text-sm white md:text-[1.2vw] mt-2">
+            <p className="text-sm white xl:text-[1vw] mt-2">
               Helping businesses scale with AI, automation, and efficient workflows.
             </p>
           </div>
