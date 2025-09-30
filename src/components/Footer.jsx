@@ -12,14 +12,14 @@ const Footer = ({ aboutRef, skillsRef, workRef, servicesRef }) => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Left side - Branding */}
           <div className="text-center md:text-left">
-            <h2 className="text-3xl font-bold white cur">Vedant Vanmore</h2>
-            <p className="text-sm white mt-2">
+            <h2 className="text-3xl md:text-[3vw] font-bold white cur">Vedant Vanmore</h2>
+            <p className="text-sm white md:text-[1.2vw] mt-2">
               Helping businesses scale with AI, automation, and efficient workflows.
             </p>
           </div>
 
           {/* Center - Links */}
-          <nav className="flex gap-6 white text-sm font-medium">
+          <nav className="flex gap-6 white text-sm xl:text-[1.3vw] font-medium">
             <p onClick={() => handleScroll(servicesRef)} className="cursor-pointer hover:scale-105 white">
               Services
             </p>
@@ -46,7 +46,7 @@ const Footer = ({ aboutRef, skillsRef, workRef, servicesRef }) => {
         </div>
 
         {/* Bottom line */}
-        <div className="mt-10 border-t border-gray-300 pt-4 text-center text-sm white">
+        <div className="mt-10 border-t border-gray-300 pt-4 text-center text-sm md:text-[1.3vw] white">
           © {new Date().getFullYear()}. All rights reserved.
         </div>
       </div>
