@@ -57,7 +57,7 @@ const Projects = ({ projects = [] }) => {
 
         {/* Modal */}
         {selectedProject && (
-          <div className="fixed inset-0 bg-[#0000004d] flex items-center justify-center p-4 z-50">
+          <div className="fixed inset-0 bg-[#00000073] flex items-center justify-center p-4 z-50">
             <div className="bg-[#F7F6F6] rounded-[5px] max-w-2xl w-full max-h-[90vh] overflow-y-auto scroll">
 
               {/* Modal Header */}

@@ -39,7 +39,7 @@ const TextEff = () => {
     }, []);
 
     return (
-        <div className="texteff w-[93%] " ref={containerRef}>
+        <div className="texteff w-[95%] " ref={containerRef}>
             <h1>Hi, I’m Vedant</h1>
             <h1>I bring over 8 years of experience in product management, AI automation, project management, social media management, faceless content creation, operations, and technical customer service. Over the years, I’ve launched new features, led large projects from start to finish, and built and supported more than 100 automation workflows that saved teams over 52,000 hours annually. I love solving challenges, learning new tools quickly, and finding smarter ways to get work done. At the end of the day, I’m happiest when I’m helping teams and clients move faster, stress less, and hit their goals with ease.</h1>
 
