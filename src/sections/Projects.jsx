@@ -20,22 +20,22 @@ const Projects = ({ projects = [] }) => {
   };
 
   return (
-    <div className="w-full md:p-[3rem] p-[1rem] ">
+    <div className="w-full md:p-[3rem] xl:h-[90vh] p-[1rem] ">
       <div className="p-[1rem] border-[1px] border-[#F7F6F6] md:rounded-[25px] rounded-[15px] w-full h-[60vh]  md:h-[80vh] ">
         <h1 ref={headingRef} className="md:text-[5vw] text-4xl font-bold mb-8 text-center">My Work </h1>
 
         {/* Cards Grid */}
-        <div className="flex gap-6 md:h-[65%] lg:h-[60%] h-[95%] min-w-full mx-auto overflow-x-scroll overflow-y-hidden scroll ">
+        <div className="flex gap-6 xl:h-[78%] h-[95%] min-w-full mx-auto overflow-x-scroll overflow-y-hidden scroll ">
           {displayProjects.map((project) => (
             <div
               key={project.id}
               onClick={() => openModal(project)}
-              className="bg-white flex-shrink-0 md:w-[30%] w-[85%] h-[85%] mb-6 rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="bg-white flex-shrink-0 md:w-[30%] w-[90%] h-[85%] mb-6 rounded-lg shadow-md overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full xl:h-[65%] h-[55%] object-cover"
                 loading='lazy'
               />
               <div className="p-4">

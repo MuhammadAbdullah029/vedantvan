@@ -4,7 +4,7 @@ import animationData from "../assets/animation.json";
 
 const Scene = () => {
   return (
-    <div style={{ margin: "auto" }} className="relative md:w-[23%] w-[53%] " >
+    <div style={{ margin: "auto" }} className="relative xl:w-[23%] w-[53%] " >
       <Lottie animationData={animationData} loop={true} />
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-40  ">
         <div className="relative">

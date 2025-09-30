@@ -58,14 +58,14 @@ const Tools = () => {
 
     return (
         <>
-            <div className="w-[100%] md:h-[80vh] lg:h-[70vh] h-[130vh] md:p-[3rem] p-[1rem] ">
+            <div className="w-[100%] xl:h-[85vh] h-[130vh] md:p-[3rem] p-[1rem] ">
                 <div className="w-[100%] h-[100%] bg2 md:rounded-[25px] rounded-[15px] flex md:flex-row flex-col-reverse items-center justify-between p-[1vw] ">
                     <div className="left md:w-[49%] w-[100%] md:h-[100%] h-[40%] rounded-[15px] overflow-hidden ">
                         <Slider items={tools} speed={19} />
                     </div>
                     <div className="right md:w-[49%] w-[100%] md:h-[100%] h-[60%] rounded-[15px] flex flex-col justify-between p-[1rem] ">
                         <h1 ref={headingRef} className='md:text-[5vw] text-4xl font-bold white ' >Tools</h1>
-                        <p className='md:text-lg text-[4.3vw] leading-[1.2] mb:pb-0 pb-4 white ' >I love using tools that will help me get things done faster with accuracy. For automation I use Zapier, Make, Power Automate and many more to build automation workflows that save hours every week. For product/project management and communication I’m comfortable with Trello, Asana, Slack, Jira, Devrev and Notion to keep everything on track without extra meetings.
+                        <p className='xl:text-lg text-[4.3vw] leading-[1.2] mb:pb-0 pb-4 white ' >I love using tools that will help me get things done faster with accuracy. For automation I use Zapier, Make, Power Automate and many more to build automation workflows that save hours every week. For product/project management and communication I’m comfortable with Trello, Asana, Slack, Jira, Devrev and Notion to keep everything on track without extra meetings.
                             On the content side I use Opus clip, Elevenlabs and CapCut to create faceless content and manage social media with tools like manychat etc. For outreach and lead generation I rely on Apify, Apollo, and Hunter to find and connect with the right people. I also know support tools like Intercom and Zendesk to keep users happy, and I use analytics platforms such as Google Analytics and Mixpanel to track growth and performance.</p>
                     </div>
                 </div>

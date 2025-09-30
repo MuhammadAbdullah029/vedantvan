@@ -78,11 +78,11 @@ const Skills = () => {
 
   return (
     <>
-      <div className="w-[100%] h-[100vh] md:h-[75vh] lg:h-[65vh] md:p-[3rem] p-[1rem] ">
+      <div className="w-[100%] h-[100vh]  xl:h-[75vh] md:p-[3rem] p-[1rem] ">
         <div className="w-[100%] h-[100%] bg2 md:rounded-[25px] rounded-[15px] flex md:flex-row flex-col items-center justify-between p-[1vw] ">
           <div className="left md:w-[49%] w-[100%] md:h-[100%] h-[50%] rounded-[15px] flex flex-col justify-between p-[1rem] ">
             <h1 ref={headingRef} className='md:text-[5vw] text-4xl font-bold white ' >Skills</h1>
-            <p className='md:text-lg text-[4.3vw] leading-[1.2] white ' >As an AI Automation Specialist I build automated workflows that save teams massive time and keep operations smooth. As a Product Manager I take projects from idea to launch and make sure features actually deliver. On top of that I can drive growth through faceless content creation, social media account management, influencer marketing, customer success and lead generation, covering both efficiency and user acquisition.</p>
+            <p className='xl:text-lg text-[4.3vw] leading-[1.2] white ' >As an AI Automation Specialist I build automated workflows that save teams massive time and keep operations smooth. As a Product Manager I take projects from idea to launch and make sure features actually deliver. On top of that I can drive growth through faceless content creation, social media account management, influencer marketing, customer success and lead generation, covering both efficiency and user acquisition.</p>
           </div>
           <div className="right md:w-[49%] w-[100%] md:h-[100%] h-[50%] rounded-[15px] overflow-hidden md:mt-0 mt-[2rem] ">
             <Slider items={data} speed={11} />
