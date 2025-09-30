@@ -13,7 +13,7 @@ const Footer = ({ aboutRef, skillsRef, workRef, servicesRef }) => {
           {/* Left side - Branding */}
           <div className="text-center md:text-left">
             <h2 className="text-3xl md:text-[3vw] font-bold white cur">Vedant Vanmore</h2>
-            <p className="text-sm white xl:text-[1vw] mt-2">
+            <p className="text-sm white xl:text-[.9vw] mt-2">
               Helping businesses scale with AI, automation, and efficient workflows.
             </p>
           </div>

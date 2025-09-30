@@ -73,10 +73,10 @@ const Slider = ({ items, speed }) => {
           return (
             <div
               key={`${item.name}-${i}`}
-              className="xl:h-[8vh] h-[6vh] flex items-center justify-between bg-white xl:text-[1.5vw] text-[4vw] font-semibold rounded-[55px] md:px-4 py-4 px-4 transition-colors duration-300 hover:bg-[#F7F6F6] cursor-pointer"
+              className="xl:h-[8vh] h-[6vh] flex items-center justify-between bg-white xl:text-[1.5vw] text-[4vw] font-semibold rounded-[55px] md:px-4 py-4 px-4 transition-colors duration-300 hover:bg-[#d3d2d2] cursor-pointer"
             >
               {item.name}
-              <Icon color={"#061B57"} size={24} />
+              <Icon color={"#061B57"} size={'2.5vw'} />
             </div>
           );
         })}
